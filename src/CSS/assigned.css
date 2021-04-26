@@ -1,0 +1,86 @@
+.assigned {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  width: 600px;
+}
+
+.assigned table {
+  border: 1px solid #898989;
+  border-collapse: collapse;
+  width: 100%;
+  color: #898989;
+}
+
+.assigned table thead th {
+  border: 1px solid #898989;
+  text-align: center;
+  width: 100px;
+  height: 40px;
+  font-weight: 500 !important;
+  font-size: 0.8em;
+}
+
+.assigned table thead th:first-child {
+  border: 1px solid transparent;
+  border-right: 1px solid #898989;
+}
+
+.assigned table td {
+  border: 1px solid #898989;
+  text-align: center;
+  width: 100px;
+  height: 70px;
+  border-bottom: dashed 1.5px #898989;
+}
+
+.workAssign {
+  padding-left: 12px;
+}
+
+.assigned table td:first-child {
+  border: 1px solid transparent;
+  border-right: 1px solid #898989;
+  border-bottom: dashed 1.5px #898989;
+}
+
+.unassigned {
+  border: none !important;
+}
+
+.workTD {
+  border: 0px solid transparent !important;
+}
+
+.con1 {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.75em;
+  width: fit-content;
+  border: 1.5px solid #898989;
+  padding: 5px;
+  cursor: move;
+}
+
+.con1 div:first-child {
+  border-bottom: 1px solid #898989;
+  padding-bottom: 2px;
+}
+
+.saveButton {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.saveButton button {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding: 5px 12px;
+  outline: none;
+  border: 1.5px solid #898989;
+}
